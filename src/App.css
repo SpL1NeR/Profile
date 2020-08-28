@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+.header-color{
+background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFE000, #799F0C, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-grid{
+background: #076585;  
+background: -webkit-linear-gradient(to right, #fff, #076585);  
+background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.projects-grid{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+  .mdl-layout__content{
+  background: #076585;  
+background: -webkit-linear-gradient(to right, #fff, #076585);  
+background: linear-gradient(to right, #fff, #076585);
+}
+.resume-right-col{
+  background: #27221f;
   color: white;
+  padding: 2em;
+}
+.contact-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+
 }
 
-.App-link {
-  color: #61dafb;
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 500px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
 }
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold ;
+}
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list  i{
+  font-size: 56px;
+  padding-right: 5rem;
+
+}
+.contact-grid img{
+  border: 2px solid rgb(11, 226, 11);
+  height: 250px;
+ border-radius: 50%;
+}
+.avatar-img{
+ height: 250px;
+ border-radius: 50%;
+ 
+}
+
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius:  10px ;
+}
+
+.banner-text h1{
+  font-size: 66px;
+  font-weight:  bold;
+  color: white;
+
+}
+
+.banner-text hr{
+  border-top-style: 5px dotted white;
+width: 50%;
+margin: auto;
+}
+
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding:  1em;}
+
+  .social-link{
+    display: flex;
+    justify-content: space-between;
+width: 50%;
+margin: auto;
+ }
+
+ .social-link i{
+   color: white;
+   font-size: 5em;
+   padding: 8px;
+ }
+ .mdl-button--icon {
+   color: white;
+ }
+ .project-end-course{
+   margin: auto;
+ }
