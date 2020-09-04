@@ -1,7 +1,8 @@
 {
-  "homepage": "http://https://spl1ner.github.io/Profile",
+ 
   "name": "myportfolios",
-  "version": "0.1.0",
+  "homepage": "http://https://spl1ner.github.io/Profile",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

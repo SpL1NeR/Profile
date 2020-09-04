@@ -10,7 +10,7 @@ function App() {
       <Layout>
         <Header className='header-color' scroll>
           <Navigation>
-          <Link to="/" style={{marginRight:'200%'}}>SpL1NeR</Link>
+          <Link to="/Profile" style={{marginRight:'200%'}}>SpL1NeR</Link>
             <Link to="/Resume">Resume</Link>
             <Link to="/Project">Project</Link>
             <Link to="/Contacts">Contacts</Link>

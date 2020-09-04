@@ -5,8 +5,8 @@ class EndsCourses extends Component {
   render() {
     return(
         <div className="project-end-course">
-        <Card shadow={5} style={{minWidth: '450', margin: "auto" }}>
-        <CardTitle style={{color: '#000', height:'176px', background:'url(https://prometheus.org.ua/wp-content/themes/prometheus/assets/images/logo.svg) center / cover'}}>
+        <Card shadow={5} style={{minWidth: '550', margin: "auto", height:'140px'}}>
+        <CardTitle className='cardTitle_courses' style={{color: '#000', height:'40px', width:'300px', background:'url(https://prometheus.org.ua/wp-content/themes/prometheus/assets/images/logo.svg) center / cover'}}>
         
         </CardTitle>
     <CardText>{this.props.Course}</CardText>

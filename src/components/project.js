@@ -20,7 +20,7 @@ toggleCategories(){
 </CardTitle>
 <CardText>Weather</CardText>
 <CardActions border>
-    <Button colored>GitHub</Button>
+    <Button colored><a target="_blank" href='https://github.com/SpL1NeR/Weather'>GitHub</a></Button>
     </CardActions>
     <CardMenu style={{color:'#000'}}>
         <IconButton name="share"/>
@@ -36,7 +36,7 @@ toggleCategories(){
 </CardTitle>
 <CardText>Social Network</CardText>
 <CardActions border>
-    <Button colored>GitHub</Button>
+    <Button colored><a target="_blank" href='https://github.com/SpL1NeR/Social_net'>GitHub</a></Button>
     </CardActions>
     <CardMenu style={{color:'#000'}}>
         <IconButton name="share"/>
@@ -50,7 +50,9 @@ toggleCategories(){
 </CardTitle>
 <CardText>My Portfolio</CardText>
 <CardActions border>
-    <Button colored>GitHub</Button>
+    <Button colored>
+    <a target="_blank" href='https://github.com/SpL1NeR/Profile'>GitHub</a>
+    </Button>
     </CardActions>
     <CardMenu style={{color:'#000'}}>
         <IconButton name="share"/>
@@ -69,12 +71,18 @@ toggleCategories(){
             )
         }
         else if(this.state.activeTab === 2){
-            return(
+            return(<>
                 <div className='projects-grid'>
-                    <EndsCourses Course='jsx' platform='prometeus' img='https://courses.prometheus.org.ua/static/prometheus/images/logo_eng.15f9ead518a4.png' link='https://courses.prometheus.org.ua:18090/downloads/52ed810f701f4c9f84fe71073b6b7c8e/Certificate.pdf'/>
-                    <EndsCourses/>
-                    <EndsCourses/>
-                </div>
+                    <EndsCourses Course='Web_UI' platform='prometeus'  link='https://courses.prometheus.org.ua:18090/downloads/52ed810f701f4c9f84fe71073b6b7c8e/Certificate.pdf'/>
+                    <EndsCourses Course='CS_50' platform='prometeus' link='https://courses.prometheus.org.ua:18090/downloads/130654c9f74f4a268929fe5ef75cdbec/Certificate.pdf'/>
+                    
+                    </div>
+                    <div className='projects-grid'>
+                    <EndsCourses Course='Basics of information security' platform='prometeus' link='https://courses.prometheus.org.ua:18090/downloads/30fe529e86b847eabbc52359613a6e26/Certificate.pdf'/>
+                    <EndsCourses Course='Basics of software testing' platform='prometeus' link='https://courses.prometheus.org.ua:18090/downloads/5097e5431ee849b896c9c4bd90a6e395/Certificate.pdf'/>
+                                        </div>
+
+                </>
             )
         }
     

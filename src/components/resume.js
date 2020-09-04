@@ -5,24 +5,22 @@ import Experience from './experience';
 import Skills from './skills';
 
 
+
 class Resume extends Component {
     render() {
         return (
             <div>
                 <Grid>
-                    <Cell col={4}>
+                    <Cell col={4} style={{background: 'white'}}>
                         <div style={{ textAlign: 'center' }}>
-                            <img
-                                src="https://lh3.googleusercontent.com/838iTdSMlLOFL6sRB70SuwJFYw18vEIXpaukio-9WvKcUbuQBUru-h5kAXrRsSdAvSOv4Iolbjn3S0I2dhufZ_lggdLFCi_7W2tmUiXyAidGDy18JYqNTrQhm-u-0g-VMyUkhTKc6sqriUysRrRMtVXnT9dDCBxJ_FaMJoA9Wiz6Wuq-T-3l8GHKKBBoYHqDWb1TwJpU2hphB48mqIw1F6yOW5gznZVD3lh8AVy2R93qLOZFGsVIQsfVIHCxAb5s3VbsWGYzBtNZOV2hlFz8gqZEht_xgCXi8kjOvZA5BSzJ4zwzZDokNj5Z_qXKPEfvApRom2O8-IUeMQf96oPiL5veytOiZMshI43XNJ0oIIbiv6LnFPRM91bOGspws8ETNuyEZFPLJthBIrRWSSwrzI_toZmlz9lgTeE3Rvw3TZz1sL9Bq72YRRI-_NCF46LCPJFPb-QmeVOrurtoorPe-26bBvLjexbcqp23zRmyNk0KiYKD55kPhPbJZN08QcotezVLqUGDJUGNYM5zTBnTgdwZx2cylXj6Urts2zIiV6TdejH_c0S9taD1k9C92Cq3KR6k_aRpLJT5MTt0ICAy3xsWDgy0WYUiler8yO8Nv-9XEsReQgndCc9mgVzDrNKLL0TNIuA19JJ5dLlmnoMw1jZZPNwjZbmjAOhftZ2Hp2Rj1_RTNgao87KLu1xikg=w354-h472-no?authuser=0"
-                                alt="avatar"
-                                style={{ height: '200px' }}
-                            />
+                            <div className='image_resume'></div>
+                            
                         </div>
 
                         <h2 style={{ paddingTop: '2em' }}>Olexsii Herhovskyi</h2>
                         <h4 style={{ color: 'grey' }}>Programmer</h4>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <p>Hi, my name is Alex, I am a Junior React developer who tries to get better every day</p>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
                         <h5>Address</h5>
                         <p>36/3 of Copernicus Street, Sambir, Ukrain </p>

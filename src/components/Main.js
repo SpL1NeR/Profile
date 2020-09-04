@@ -7,7 +7,7 @@ import Contacts from './contact';
 
 const Main = () =>(
     <Switch>
-        <Route exact path="/" component={LandingPage}/>
+        <Route exact path="/Profile" component={LandingPage}/>
         <Route exact path="/Resume" component={Resume}/>
         <Route exact path="/Project" component={Project}/>
         <Route exact path="/Contacts" component={Contacts}/>
